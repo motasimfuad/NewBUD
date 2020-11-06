@@ -9,3 +9,33 @@
     }
 
 }
+
+#navbar {
+    background-image: linear-gradient(to right, #4C1B72, #8B2FD2);
+    border: 0 2px 5px #5032E9; 
+    i.logo {
+        align-content: center;
+        color: #ff;
+    }
+    .navbar-brand {
+        align-items: center; 
+    }
+}
+
+#hero {
+    &__h1 {
+        font-size: 2.4rem;
+    }
+    .bold {
+        font-family: Raleway;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    img{
+        background: linear-gradient(to right, #4C1B72, #8B2FD2);
+    }
+    background-size: cover;
+}
+
+// <img src="./assets/gettyimages-645164152.jpg" class="img-fluid" alt="hero-image">
